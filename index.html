@@ -91,13 +91,6 @@
       </div>
     </div>
   </div>
-  <script>
-    smoothScroll.init({
-      speed: 500,
-      easing: 'easeInOutQuad',
-      offset: 0,
-    });
-  </script>
   <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PNDZZT"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -108,12 +101,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-PNDZZT');</script>
 <!-- End Google Tag Manager -->
   <script src="js/gascrolldepth.min.js"></script>
-  <script src="js/smooth-scroll.min.js"></script>
   <script>
     gascrolldepth.init({
       elements: ['#services', '#contact'],
       percentage: false,
       pixelDepth: false,
+    });
+  </script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script>
+    smoothScroll.init({
+      speed: 500,
+      easing: 'easeInOutQuad',
+      offset: 0,
     });
   </script>
 </body>
