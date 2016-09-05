@@ -1,0 +1,139 @@
+body {
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 100,
+}
+
+p, a, span {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.button {
+  display:block;
+  margin: 1rem auto;
+  color: #eee;
+  background-color: #EE364C;
+}
+
+.section {
+  border-top: 1px solid #eee;
+}
+
+.navbar-logo {
+  display: none;
+  float: left;
+  height: 4rem;
+  margin: 1rem 0;
+}
+
+@media (min-width: 550px) {
+  .navbar-logo {
+    display: block;
+  }
+}
+
+.menu {
+  margin: 2rem 0;
+  float: none;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .menu {
+    float: right;
+  }
+}
+
+
+.menu a {
+  display: inline-block;
+  color: black;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#home {
+  height: 80%;
+}
+
+.landing-img {
+  background-image: url("../assets/web/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%;
+}
+
+.landing-content {
+  padding: 4rem 0 15rem;
+}
+
+.certification {
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .certification {
+    text-align: right;
+  }
+}
+
+
+.certification img {
+  height: 50px;
+  width: auto;
+  padding: 1rem 1rem;
+}
+
+.landing-content .button {
+  width: 170px;
+}
+
+#services {
+  padding: 5rem 0;
+}
+
+.service {
+  padding-bottom: 3rem
+}
+
+.service img {
+  float: left;
+  margin-top: -8px;
+}
+
+.service .text {
+  margin-left: 55px
+}
+
+.service h2 {
+  color: #EE364C;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+#contact {
+   background-color: #f4f4f4;
+}
+
+#contact .content {
+  padding: 4rem 0 8rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-action {
+  padding-bottom: 1rem;
+}
+
+#contact .button {
+  display: inline-block;
+}
