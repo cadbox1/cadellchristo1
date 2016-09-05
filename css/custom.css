@@ -130,6 +130,12 @@ h1 {
   margin: 0 auto;
 }
 
+@media (min-width: 550px) {
+  #contact .content {
+    padding-top: 6rem;
+  }
+}
+
 .contact-action {
   padding-bottom: 1rem;
 }
