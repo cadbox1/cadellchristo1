@@ -23,6 +23,7 @@ h1 {
 
 .section {
   border-top: 1px solid #eee;
+  padding: 4rem 0 0;
 }
 
 .navbar-logo {
@@ -59,20 +60,12 @@ h1 {
   font-weight: normal;
 }
 
-#home {
-  height: 80%;
-}
-
-.landing-img {
+#landing {
   background-image: url("../assets/web/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width:100%;
-}
-
-.landing-content {
-  padding: 4rem 0 15rem;
+  padding-bottom: 15rem;
 }
 
 .certification {
@@ -86,19 +79,14 @@ h1 {
   }
 }
 
-
 .certification img {
   height: 50px;
   width: auto;
   padding: 1rem 1rem;
 }
 
-.landing-content .button {
+#landing .button {
   width: 170px;
-}
-
-#services {
-  padding: 5rem 0;
 }
 
 .service {
@@ -125,15 +113,9 @@ h1 {
 }
 
 #contact .content {
-  padding: 4rem 0 8rem;
+  padding-bottom: 8rem;
   max-width: 500px;
   margin: 0 auto;
-}
-
-@media (min-width: 550px) {
-  #contact .content {
-    padding-top: 6rem;
-  }
 }
 
 .contact-action {
