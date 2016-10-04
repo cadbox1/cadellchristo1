@@ -21,6 +21,14 @@ h1 {
   background-color: #EE364C;
 }
 
+a {
+  color: #EE364C;
+}
+
+.row {
+  padding-bottom: 4rem;
+}
+
 .section {
   border-top: 1px solid #eee;
   padding: 4rem 0 0;
@@ -51,7 +59,6 @@ h1 {
   }
 }
 
-
 .menu a {
   display: inline-block;
   color: black;
@@ -69,8 +76,8 @@ h1 {
 }
 
 .certification {
-  padding-bottom: 4rem;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 550px) {
@@ -82,15 +89,11 @@ h1 {
 .certification img {
   height: 50px;
   width: auto;
-  padding: 1rem 1rem;
+  padding: 1rem;
 }
 
 #landing .button {
   width: 170px;
-}
-
-.service {
-  padding-bottom: 3rem
 }
 
 .service img {
@@ -102,18 +105,26 @@ h1 {
   margin-left: 55px
 }
 
-.service h2 {
+.service h3 {
   color: #EE364C;
   margin-bottom: 1rem;
   font-size: 2rem;
+}
+
+#equipment {
+  padding-bottom: 2rem;
+}
+
+#equipment img {
+  width: 100%;
 }
 
 #contact {
    background-color: #f4f4f4;
 }
 
-#contact .content {
-  padding-bottom: 8rem;
+#contact .container {
+  padding-bottom: 2rem;
   max-width: 500px;
   margin: 0 auto;
 }
