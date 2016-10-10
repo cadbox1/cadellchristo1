@@ -78,6 +78,7 @@ a {
 .certification {
   text-align: center;
   padding-bottom: 1rem;
+  border-radius: 14px;
 }
 
 @media (min-width: 550px) {
@@ -112,18 +113,20 @@ a {
 }
 
 #equipment {
+  background-color: #f4f4f4;
   padding-bottom: 2rem;
+}
+
+#equipment > .container {
+  max-width:760px;
 }
 
 #equipment img {
   width: 100%;
+  border-radius: 10px;
 }
 
-#contact {
-   background-color: #f4f4f4;
-}
-
-#contact .container {
+#contact > .container {
   padding-bottom: 2rem;
   max-width: 500px;
   margin: 0 auto;
