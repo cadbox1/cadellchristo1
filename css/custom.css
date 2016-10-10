@@ -78,7 +78,6 @@ a {
 .certification {
   text-align: center;
   padding-bottom: 1rem;
-  border-radius: 14px;
 }
 
 @media (min-width: 550px) {
@@ -90,7 +89,8 @@ a {
 .certification img {
   height: 50px;
   width: auto;
-  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
 }
 
 #landing .button {
@@ -124,6 +124,14 @@ a {
 #equipment img {
   width: 100%;
   border-radius: 10px;
+}
+
+#certifications {
+  padding-bottom: 2rem;
+}
+
+#certifications > .container {
+  max-width: 720px;
 }
 
 #contact > .container {
