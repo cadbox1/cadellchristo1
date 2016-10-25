@@ -25,13 +25,12 @@ a {
   color: #EE364C;
 }
 
-.row {
-  padding-bottom: 4rem;
+.row-padding {
+  padding-top: 4rem;
 }
 
-.section {
-  border-top: 1px solid #eee;
-  padding: 4rem 0 0;
+.col-padding {
+  padding-bottom: 3rem;
 }
 
 .navbar-logo {
@@ -72,7 +71,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 15rem;
+  padding: 4rem 0 15rem;
 }
 
 .certification {
@@ -112,11 +111,6 @@ a {
   font-size: 2rem;
 }
 
-#equipment {
-  background-color: #f4f4f4;
-  padding-bottom: 2rem;
-}
-
 #equipment > .container {
   max-width:760px;
 }
@@ -127,11 +121,16 @@ a {
 }
 
 #certifications {
+  margin-top: -2rem;
   padding-bottom: 2rem;
 }
 
 #certifications > .container {
   max-width: 720px;
+}
+
+#contact {
+  background-color: #f4f4f4;
 }
 
 #contact > .container {
