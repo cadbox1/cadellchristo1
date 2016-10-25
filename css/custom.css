@@ -121,8 +121,11 @@ a {
 }
 
 #certifications {
-  margin-top: -2rem;
   padding-bottom: 2rem;
+}
+
+@media (min-width: 550px) {
+  margin-top: -2rem;
 }
 
 #certifications > .container {
